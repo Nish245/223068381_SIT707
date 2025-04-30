@@ -1,0 +1,28 @@
+package web.service;
+
+public class MathQuestionService {
+
+    /**
+     * Calculate Q1 result (Addition).
+     */
+    public static double q1Addition(String number1, String number2) {
+        double result = Double.valueOf(number1) + Double.valueOf(number2);
+        return result;
+    }
+
+    /**
+     * Calculate Q2 result (Subtraction).
+     */
+    public static double q2Subtraction(String number1, String number2) {
+        double result = Double.valueOf(number1) - Double.valueOf(number2);
+        return result;
+    }
+
+    /**
+     * Calculate Q3 result (Multiplication).
+     */
+    public static double q3Multiplication(String number1, String number2) {
+        double result = Double.valueOf(number1) * Double.valueOf(number2);
+        return result;
+    }
+}
