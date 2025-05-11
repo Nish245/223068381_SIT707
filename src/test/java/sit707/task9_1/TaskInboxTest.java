@@ -14,7 +14,7 @@ public class TaskInboxTest {
 
         List<Task> tasks = inbox.getTasksByStudentId("S101");
 
-        assertEquals(1, tasks.size());
+        assertEquals(2, tasks.size()); // Intentionally changed to Trigger CI
         assertEquals("Assignment 1", tasks.get(0).getTaskName());
         assertEquals("Submitted", tasks.get(0).getStatus());
     }
