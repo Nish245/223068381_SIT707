@@ -2,7 +2,7 @@ name: Java CI for Task 9_1P
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, Task9_1 ]
 
 jobs:
   build:
